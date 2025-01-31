@@ -1,0 +1,117 @@
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    text-align: center;
+    color: #0036a0;
+    text-decoration: underline;
+    padding: 30px 0px;
+}
+
+.main-div
+{
+    margin-bottom: 50px;
+}
+
+.game-div {
+    background:url('../img/grid-1.png');
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.row
+{
+    justify-content: center;
+}
+
+#b1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+#b2 {
+    height: 200px;
+    width: 200px;
+}
+
+#b2 img {
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: contain;
+    padding: 25px;
+}
+.input-div
+{
+    height: 600px;
+    width: 600px;
+}
+.input-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    background-color: lightsteelblue;
+}
+
+#hintBox
+{
+    height: 300px;
+    width: 300px;
+    background: url('../img/grid-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+#hintFlexContainer
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hintMario 
+{
+    height: 100px;
+    width: 100px;
+}
+
+#hintMario img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.input-container
+{
+    padding: 0px 80px 0px 80px;
+}
+
+.input-container input,button {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background: #f5f5f5ad;
+    margin: 10px 0px;
+    padding-left: 15px;
+}
+
+
